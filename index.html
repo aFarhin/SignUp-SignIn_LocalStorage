@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <form id="signup-form">
+        <label for="signup-email">Email:</label>
+        <input type="email" id="signup-email" required /><br />
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" required />
+        <span id="signup-toggle-password" class="fa fa-eye-slash  up"></span><br />
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <form id="signin-form">
+        <label for="signin-email">Email:</label>
+        <input type="email" id="signin-email" required /><br />
+        <label for="signin-password">Password:</label>
+        <input type="password" id="signin-password" required />
+        <span id="signin-toggle-password" class="fa fa-eye-slash  in"></span>
+        <br />
+        <button type="submit">Sign In</button>
+    </form>
+
+    <p id="welcome-message"></p>
+    <script src="./script.js"></script>
+</body>
+
+</html>
